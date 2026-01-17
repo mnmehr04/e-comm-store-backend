@@ -28,6 +28,7 @@ const __dirname = path.dirname(__filename);
 app.use(cors({
   origin: "*"
 }));
+
 app.use(express.json());
 
 // Serve images from the images folder
